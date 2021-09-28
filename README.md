@@ -10,11 +10,11 @@ In other words...
 
 Debugging is the science of investigating and solving code problems through accessible debugging tools. 
 
-#### Why is debugging important?
+### Why is debugging important?
 
 We use debugging to determine why applications and programs are not behaving as expected. 
 
-#### Best processes for debugging:
+### Best processes for debugging:
  
 - Consider the goal of the code
 - What is the expected behavior?
@@ -24,11 +24,11 @@ We use debugging to determine why applications and programs are not behaving as 
 - Think about how to debug each assumption
 - Debug and repeat until an assumption is true
 
-#### Testing vs debugging
+### Testing vs debugging
 
 Testing (rspec) and debugging are like the ying and yang of programming. They complete each other but are not the same thing. They compliment one another. Testing is used to identify what could go wrong if errors are made in the code base. Debugging is to find the error and solve it. 
 
-#### Common coding errors: 
+### Common coding errors: 
 
 - Syntax error
 - Runtime error
@@ -40,16 +40,26 @@ Testing (rspec) and debugging are like the ying and yang of programming. They co
 - Undefined variables
 - undefined method 'some_method' for nil:NilClass
  
-#### Challenges of debugging
+### Challenges of debugging
 - Debugging will take more time than writing the code. 
 - Challenges that can arise:
     - The cause of the bug is not so apparent, but the program is breaking.
     - Fix one part, break another.
 
-#### Debugging tools:
-- Puts
-- Pry
-- Rake Console
+### Debugging tools:
+- Puts: (similar to console.log()) - prints to terminal 
+    - Check variable values 
+    - Check method return value 
+- Pry: (similar in debugger)
+    - acts as a playground to test data/methods
+    - Stops in the middle of our program, where it is undefined 
+    - use cases: within methods, to see what is breaking the method
+- Rake Console: 
+    - its a terminal for a ruby app during run 
+    - Used for debugging our application as a whole
+    - Testing associations, test the program after debugging, to update tables(migrations and associations)
+    - Test out methods before coding them 
+- Eyes 
 
 
 
