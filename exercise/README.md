@@ -8,4 +8,4 @@
 - A movie will have a title:string, release_date:string, and summary:text
 - A review will have a content:string
 
-- Create a custom instance method that returns a list of movies a user has reviewed. 
+- Create a custom instance method that returns a list of movies a user has reviewed.
