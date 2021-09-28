@@ -1,0 +1,10 @@
+sally = User.create(username: "sally", password: "halloween")
+jack = User.create(username: "jack_skellington", password: "frightman")
+oogie_boogie = User.create(username: "oogie_boogie", password: "boo")
+
+
+nightmare = Movie.create(title: "Nightmare Before Christmas", release_date: "1993", summary: "The film follows the misadventures of Jack Skellington, Halloweentown's beloved pumpkin king, who has become bored with the same annual routine of frightening people in the "real world." When Jack accidentally stumbles on Christmastown, all bright colors and warm spirits, he gets a new lease on life -- he plots to bring Christmas under his control by kidnapping Santa Claus and taking over the role. But Jack soon discovers even the best-laid plans of mice and skeleton men can go seriously awry.")
+corpse_bride = Movie.create(title: "Corpse Bride", release_date: "2005", summary: "Victor (Johnny Depp) and Victoria's (Emily Watson) families have arranged their marriage. Though they like each other, Victor is nervous about the ceremony. While he's in a forest practicing his lines for the wedding, a tree branch becomes a hand that drags him to the land of the dead. It belongs to Emily, who was murdered after eloping with her love and wants to marry Victor. Victor must get back aboveground before Victoria marries the villainous Barkis Bittern (Richard E. Grant).")
+scissorhands = Movie.create(title: "Edward Scissorhands", release_date: "1990", summary: "VA scientist (Vincent Price) builds an animated human being -- the gentle Edward (Johnny Depp). The scientist dies before he can finish assembling Edward, though, leaving the young man with a freakish appearance accentuated by the scissor blades he has instead of hands. Loving suburban saleswoman Peg (Dianne Wiest) discovers Edward and takes him home, where he falls for Peg's teen daughter (Winona Ryder). However, despite his kindness and artistic talent, Edward's hands make him an outcast.")
+
+# Need to create reviews 

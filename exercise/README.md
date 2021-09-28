@@ -1,11 +1,11 @@
-For today's exercise, we are going to change the domain of the application to reflect:
+### Today we are going to build a Movies reviewer app 
 
-1. Orders has many pizza_orders and has many pizza's through pizza_orders
-2. Pizza has many pizza_orders, pizza has many orders through pizza_orders
+#### Domain model:
 
-In order to implement this new domain we need to do the following:
+- There will be 3 classes: User, Movie, and Review
+- A review belongs to both user and movie. 
+- A user will have a username and password 
+- A movie will have a title:string, release_date:string, and summary:text
+- A review will have a content:string
 
-1. Create a PizzaOrder class that belongs to both the order and pizza class.
-2. Create a migration that will remove the order_id from the pizzas table
-3. Create a migration for the pizza_orders table. The columns will be:
-   name:string, date:datetime. Because the pizza_orders belong to both orders and pizza classes, don't forget to include the foreign keys.
+- Create a custom instance method that returns a list of movies a user has reviewed. 
