@@ -50,8 +50,3 @@ Testing (rspec) and debugging are like the ying and yang of programming. They co
 - Puts
 - Pry
 - Rake Console: combo of pry and rake console
-
-
-
-
-
