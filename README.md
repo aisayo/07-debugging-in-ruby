@@ -49,7 +49,7 @@ Testing (rspec) and debugging are like the ying and yang of programming. They co
 #### Debugging tools:
 - Puts
 - Pry
-- Rake Console
+- Rake Console: combo of pry and rake console
 
 
 
